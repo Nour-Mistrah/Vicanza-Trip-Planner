@@ -18,6 +18,16 @@ This project gave us practical experience in Android development, backend integr
 - Navigate between application screens
 - Logout functionality
 
+
+## Application Screenshots
+
+<p align="center">
+  <img src="screenshots/login.png" alt="Login Screen" width="30%">
+  <img src="screenshots/home.png" alt="Home Screen" width="30%">
+  <img src="screenshots/packages.png" alt="Travel Packages Screen" width="30%">
+</p>
+
+
 ## Technologies Used
 
 **Android Application**

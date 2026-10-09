@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Check_Out">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt1"
+        android:textAlignment="center"
+        android:textColor="#D1A566"
+        android:textSize="60sp"
+
+        android:fontFamily="@font/abril_fatface"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:indeterminate="true"/>
+</FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="369dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/payment"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Paymentbutton"
+        android:layout_width="418dp"
+android:layout_marginTop="50dp"
+        android:layout_height="170dp"
+        android:background="@drawable/circular_button"
+        android:backgroundTint="#D1A566"
+        android:text="@string/send_txt3"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+
+</LinearLayout>
